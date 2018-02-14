@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #666666;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #DF4215;
+}
+
+a:hover {
+    color: rgb(167, 50, 7);
+}
+
+a.activo {
+    color: #DF4215;
+}
+
+.breadcrumbs{
+    margin-top: 10px;
+}
+
+.breadcrumbs a:hover {
+    color: orange;
+}
+
+.contenedor {
+    margin-top: 20px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.hero {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #dd3333;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+.fila {
+    position: relative;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.fila div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.columna_general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.columna1 {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+}
+
+.detalles {
+    background-color: #a7a4a4;
+}
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Formulario*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 40px 0 40px;
+    width: 70%;
+    padding: 10px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+.filaform {
+    display: flex;
+}
+
+.form50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form33 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form66 {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form100check {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.fila_check ´{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    padding: 5px;
+}
+
+input {
+    font-size: 20px;
+    padding: 5px;
+    border: solid 2px #0b8c79;
+    border-radius: 20px;
+    color: #0b8c79;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* Footer*/
+footer {
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    position: relative;
+}
+
+
+.minifooter p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.izda {
+
+}
+
+.izda p {
+    padding: 5px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+}
+
+.dcha {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dcha a {
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.legales a {
+    font-size: 16px;
+}
+
+.columna100 {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

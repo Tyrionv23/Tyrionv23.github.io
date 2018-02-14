@@ -1,0 +1,322 @@
+ /* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #3f3f3f;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(6, 168, 0);
+}
+
+a:hover {
+    color: rgb(214, 195, 23);
+}
+
+a.activo {
+    color: rgb(6, 168, 0);
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+form {
+    margin: 40px 0 0px;
+    width: 70%;
+    padding: 10px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    z-index: 1; /*elegir la posición, */
+}
+
+
+ /* Cabecera con logo y barra de navegación */
+
+header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    padding: 20px;
+}
+
+header .burger {
+    display: none;
+    color: white;
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    padding: 10px;
+}
+
+header nav ul li a {
+    color: black;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('../img/portada.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero h1 {
+    color: rgb(16, 139, 16);
+    font-size: 50px;
+}
+
+.hero h2 {
+    color: rgb(6, 139, 16);
+    margin-bottom: 450px;
+}
+
+/* Layou */
+.fila {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.columna_general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.columna1 {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.columna2 {
+    flex-basis: 300px;
+    flex-grow: 3;
+    padding: 10px;
+}
+
+
+.centrada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explicacion h3 {
+    font-size: 18px;
+}
+
+.explicacion p {
+    font-size: 13px;
+    color: #3f3f3f;
+}
+
+/* newslater */
+
+.columna100 {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_newslatter {
+    color: rgb(16, 139, 16);
+    font-size: 20px;
+    padding: 15px;
+    border: 4px solid rgb(16, 139, 16);
+    border-radius: 25px;
+    margin: 10px 20px;
+}
+
+
+.boton_newslatter {
+    color: white;
+    background-color: rgb(16, 139, 16);
+    padding: 15px;
+    margin: 10px 20px;
+    border-radius: 25px;
+    background: -webkit-linear-gradient( top, rgb(16, 139, 16), rgb(214, 195, 23))
+}
+
+.newslatter {
+    font-size: 32px;
+    color: rgb(16, 139, 16)
+}
+
+.boton_newslatter:hover {
+    border: 4px solid rgb(214, 195, 23);
+    cursor: pointer
+}
+
+.boton_newslatter:focus, .input_newslatter:focus {
+    outline: none;
+}
+
+.mapa {
+    margin-top: 40px;
+}
+
+
+/* footer */
+footer {
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    position: relative;
+}
+
+
+.minifooter p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.izda {
+
+}
+
+.izda p {
+    padding: 5px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+}
+
+.dcha {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dcha a {
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.legales a {
+    font-size: 16px;
+}
+
+/*Formulario*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 40px 0 40px;
+    width: 70%;
+    padding: 10px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+.filaform {
+    display: flex;
+}
+
+.form50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form33 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form66 {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form100check {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.fila_check ´{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    padding: 5px;
+}
+
+input {
+    font-size: 20px;
+    padding: 5px;
+    border: solid 2px #0b8c79;
+    border-radius: 20px;
+    color: #0b8c79;
+}
+
+input:focus {
+    outline: none;
+}
